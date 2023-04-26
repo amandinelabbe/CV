@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.container {
+  background-color: #333;
+}
+
+.section:not(:target) {
+  display: none;
+}
+
+.section:target {
+  display: block;
+}
+
+.nav a:target {
+  background-color: #ccc;
+}
+
+.navigation{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 1px;
+}
+
+.navigation div {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.navigation div:target {
+  display: block;
+}
+
+.ul{
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.list:first-child{
+  margin-left: 3rem;
+}
+
+.a{
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 15px;
+  box-sizing: 10;
+  transition: 0.3s;
+}
+
+.a:hover{
+  background-color: #ddd;
+  border-radius:12cm;
+  text-decoration: none;
+  color:#333;
+}
+
+.display{
+  justify-content: center;
+}
+
+.displayx1{
+  display: flex;
+  flex-direction: column;
+}
+
+.h2{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #a2a2a2 15%,
+    #1b202b 29%,
+    #5d595a 67%,
+    #a2a2a2 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3.5s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.h3{
+margin-top: 5px;
+margin-block-end: 0;
+margin-block-start: 0;
+}
+
+.inbox {
+  overflow: hidden;
+}
+
+.inbox1{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.displayG {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  margin-left: 10%;
+  box-sizing: border-box;
+  background-color: #eee;
+  border-radius: 0.1875rem 0 0 0.1875rem ;
+  padding-top: 0%;
+}
+
+.displayG:first-child{
+  padding-bottom: 6.8px;
+}
+
+.displayD {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border-radius: 0 0.1875rem 0.1875rem 0;
+  padding-top: 0%;
+}
+
+.bar100 {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #5c6882;
+}
+.bar90 {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 90%;
+  background-color: #5c6882;
+}
+.bar80 {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 80%;
+  background-color: #5c6882;
+}
+.bar70{
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 70%;
+  background-color: #5c6882;
+}
+.bar55 {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 55%;
+  background-color: #5c6882;
+}
+
+.bar35{
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 35%;
+  background-color: #5c6882;
+}
+
+.box {
+  overflow: hidden; 
+}
+
+.left{
+  float: left;
+  width: 20%;
+  background-color: gray;
+  margin-left: 10%;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.1875rem 0 0 0.1875rem ;
+  font-size: 1.57em;
+  line-height: 1.4em;
+  margin-bottom: 45px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  height: 10rem;
+  transform: 0.4s;
+}
+
+.right {
+  float: left;
+  width: 60%;
+  background-color: white;
+  margin-right: 10%;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0.1875rem 0.1875rem 0;
+  text-align: left;
+  padding-left: 30px;
+  height: 10rem;
+}
+
+.left:hover {
+  background-color: #333;
+}
+
+.year{
+  font-size: 1.1rem;
+}
+.loc{
+  font-size: .9rem;
+  color: #666;
+  padding: 0;
+  margin: 0;
+}
+
+.heading2Xl {
+  color:#fff;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.heading2Xl:hover {
+color: #ccc;
+}
+
+.headingLg {
+  color:#ccc;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.borderCircle {
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 999999px;
+  transition: 0.2s;
+}
+
+.borderCircle:hover {
+  transform:scale(1.1);
+}
+
+@media only screen and (max-width:1024px) { 
+  .ul{
+    margin: 0%;
+    display: inline;
+    text-align: center;
+  }
+  .a{
+    padding: 0%;
+  }
+  .heading2Xl{
+    text-align: center;
+  }
+  .headingLg{
+    text-align: center;
+  }
+  .inbox1{
+    float: none;
+    width: auto;
+  }
+  .list:first-child{
+    margin-left: 0%;
+  }
+  .left{
+    height: auto;
+    margin-bottom: 70px;
+  }
+  .right{
+    height: auto;
+    margin-bottom: 70px;
+  }
+}
+
