@@ -6,4 +6,4 @@ J'ai choisi un style épuré qui passe partout, cela permet de faciliter la lect
 
 Il n'y a pas trop d'effet non plus pour ne pas surcharger le site.
 
-Lien du site : 
+Lien du site : https://amandinelabbe.netlify.app/ 
