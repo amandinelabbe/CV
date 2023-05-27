@@ -40,8 +40,7 @@ export default function Home() {
               <br></br>
                 <h3 className={utilStyles.h3}>A PROPOS DE MOI :</h3>
                   <p> Actuellement étudiante en informatique en 1ère année à Enigma,
-                  je suis actuellement à la recherche d'un stage pour une durée 
-                  de 2 à 3 mois à compter du 12 juin. </p>
+                  je suis actuellement à la recherche d'un job étudiant du 14 juin au 29 septembre. </p>
                     <section className={layoutStyles.inbox1}>
                       <section className={layoutStyles.fontA}>
                       <FontAwesomeIcon
