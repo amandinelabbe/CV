@@ -22,7 +22,7 @@ export default function Layout({ children, home }) {
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <h2 className={utilStyles.headingLg}>A la recherche d'un stage dans la cybersécurité pour une durée de 2 mois à compter du 12 juin</h2>
+            <h2 className={utilStyles.headingLg}>A la recherche d'un job étudiant à partir du 14 août 2023</h2>
           </>
         ) : (
           <>
