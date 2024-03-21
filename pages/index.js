@@ -39,8 +39,7 @@ export default function Home() {
               <section className={utilStyles.displayG}>
               <br></br>
                 <h3 className={utilStyles.h3}>A PROPOS DE MOI :</h3>
-                  <p> Actuellement étudiante en informatique en 1ère année à Enigma,
-                  je suis actuellement à la recherche d'un job étudiant du 14 août au 29 septembre. </p>
+                  <p> Actuellement étudiante en 2ème année d'informatique, je suis à la recherche d'une alternance dans le domaine de la cybersécurite pour une durée de 1 à 3 ans à partir de septembre 2024 . </p>
                     <section className={layoutStyles.inbox1}>
                       <section className={layoutStyles.fontA}>
                       <FontAwesomeIcon
@@ -58,13 +57,13 @@ export default function Home() {
                       />
                       </section>
                       <section className={layoutStyles.info}>
-                        <a href="mailto:amandine17021702@gmail.com" style={{color: "#000"}}>amandine17021702@gmail.com</a>
+                        <a href="mailto:amandine17021702@gmail.com" style={{color: "#000"}}>amandinelabbe02@gmail.com</a>
                       </section>  
                     </section>
                   <br></br>
                   <h3 className={utilStyles.h3}>CENTRES D’INTÉRÊT :</h3>
                   <section className={utilStyles.inbox}>
-                    <p className={utilStyles.inbox1}>Musculation<br></br><br></br>Football<br></br><br></br>Formule 1</p>
+                    <p className={utilStyles.inbox1}>TryHackMe<br></br><br></br>Football<br></br><br></br>Formule 1</p>
                     <p className={utilStyles.inbox1}>Crochet<br></br><br></br>Jeux vidéo<br></br><br></br>Voyages</p>
                   </section>
                 </section>
@@ -135,30 +134,30 @@ export default function Home() {
               <section className={utilStyles.displayG}>
                 <p>HTML / CSS </p>
                 <section className={utilStyles.bar80}></section>
-                <p>Java</p>
+                <p>Python / Bash</p>
                 <section className={utilStyles.bar35}></section>
-                <p>Python</p>
-                <section className={utilStyles.bar70}></section>
                 <p>JS / Next.js / React / Node.js</p>
-                <section className={utilStyles.bar35}></section>
-                <p>C</p>
                 <section className={utilStyles.bar70}></section>
-                <p>SQL</p>
+                <p>C</p>
+                <section className={utilStyles.bar35}></section>
+                <p>MySQL / SQLite /Mariadb</p>
+                <section className={utilStyles.bar70}></section>
+                <p>Virtualisation VMware / Hyper-V / VirtualBox</p>
                 <section className={utilStyles.bar70}></section>
               </section>
               <section className={utilStyles.displayD}>
                 <section className={utilStyles.lang}>
-                  <p>Git</p>
-                  <section className={utilStyles.bar35}></section>
-                  <p>Administration linux</p>
+                  <p>Git / Github</p>
+                  <section className={utilStyles.bar70}></section>
+                  <p>Administration Linux</p>
                   <section className={utilStyles.bar55}></section>
                   <p>Administration Windows</p>
                   <section className={utilStyles.bar55}></section>
-                  <p>CCNA 1 & CCNA 2</p>
+                  <p>CCNA 1/2/3 (Cisco)</p>
                   <section className={utilStyles.bar100}> </section>
-                  <p>Adobe Creative Cloud</p>
-                  <section className={utilStyles.bar80}></section>
-                  <p>Office 365</p>
+                  <p>Firewall Stormshield</p>
+                  <section className={utilStyles.bar55}></section>
+                  <p>Teams / Sharepoint</p>
                   <section className={utilStyles.bar100}> </section>
                 </section>  
               </section>
@@ -167,6 +166,22 @@ export default function Home() {
 
     <div id="experiences">
       <h2 className={utilStyles.h2}>EXPERIENCES</h2>
+      <section className={utilStyles.box}>
+              <section className={utilStyles.left}>
+                <section className={utilStyles.year}>
+                  <p>06/2023 - 08/2023</p>
+                </section>
+                <p>Roubaix</p>
+              </section>
+            <section className={utilStyles.right}>
+            <h3 className={utilStyles.h3}>STAGE INFORMATIQUE</h3>
+              <p className={utilStyles.loc}>XEMBEE EURATECHNOLOGIE</p>
+              <p>Mise en place d'une infrastructure, avancement du projet
+              avec programmation en Arduino, création d'un site et d'une base de données reliés entre eux via une API. <br></br>
+              Technologies : Arduino, MySql, Node.JS, TypeScript</p>
+            </section>
+        </section> 
+
         <section className={utilStyles.box}>
               <section className={utilStyles.left}>
                 <section className={utilStyles.year}>
@@ -191,7 +206,7 @@ export default function Home() {
                 <p>Villeneuve d’Ascq</p>
               </section>
             <section className={utilStyles.right}>
-            <h3 className={utilStyles.h3}>STAGE</h3>
+            <h3 className={utilStyles.h3}>STAGE INFORMATIQUE</h3>
               <p className={utilStyles.loc}>SOCIETE INFORMATIQUE UNIS</p>
               <p>Découverte des différents domaines de
               l’informatique. Suivi de plusieurs métiers :
@@ -209,7 +224,7 @@ export default function Home() {
                 <p>Lompret, Croix</p>
               </section>
             <section className={utilStyles.right}>
-            <h3 className={utilStyles.h3}>STAGE</h3>
+            <h3 className={utilStyles.h3}>STAGE INFORMATIQUE</h3>
               <p className={utilStyles.loc}>DECATHLON PÔLE INFORMATIQUE</p>
               <p>Découverte des différents domaines de
               l’informatique : cloud, logistique,
@@ -245,11 +260,6 @@ export default function Home() {
             </section>
         </li>
         <li>
-        <section className={layoutStyles.fab} >
-            <a href="https://twitter.com/lbe_amandine"><i class="fab fa-twitter"></i></a>
-            </section>
-        </li>
-        <li>
           <section className={layoutStyles.fab} >
             <a href="https://www.linkedin.com/in/amandine-labbe-22837022b/"><i class="fab fa-linkedin-in"></i></a>
           </section>
@@ -271,7 +281,7 @@ export default function Home() {
         </li>
         <li>  
         <section className={layoutStyles.fab} >
-          <a href="mailto:amandine17021702@gmail.com">    
+          <a href="mailto:amandinelabbe02@gmail.com">    
             <FontAwesomeIcon
             icon={faEnvelope}
             style={{ transform: "scale(0.5)", color: "black", transition: "color 0.3s ease" }}
